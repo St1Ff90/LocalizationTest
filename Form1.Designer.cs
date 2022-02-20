@@ -74,7 +74,7 @@
             this.btnEN.TabIndex = 6;
             this.btnEN.Text = "EN";
             this.btnEN.UseVisualStyleBackColor = true;
-            this.btnEN.Click += new System.EventHandler(this.button4_Click);
+            this.btnEN.Click += new System.EventHandler(this.btnEN_Click);
             // 
             // btnUA
             // 
@@ -84,6 +84,7 @@
             this.btnUA.TabIndex = 7;
             this.btnUA.Text = "UA";
             this.btnUA.UseVisualStyleBackColor = true;
+            this.btnUA.Click += new System.EventHandler(this.btnUA_Click);
             // 
             // btnRU
             // 
@@ -93,6 +94,7 @@
             this.btnRU.TabIndex = 8;
             this.btnRU.Text = "RU";
             this.btnRU.UseVisualStyleBackColor = true;
+            this.btnRU.Click += new System.EventHandler(this.btnRU_Click);
             // 
             // rtxMainText
             // 
